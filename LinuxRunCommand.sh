@@ -1,1 +1,2 @@
+sudo -i
 $Command
