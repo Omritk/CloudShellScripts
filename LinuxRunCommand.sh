@@ -1,3 +1,1 @@
-echo $Command > /tmp/command
-printenv > /tmp/env
-bash /tmp/command
+sudo -- sh -c '$Command'
