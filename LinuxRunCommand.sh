@@ -1,3 +1,3 @@
 echo $Command >> /tmp/command
 printenv >> /tmp/env
-$Command
+$Command >> /tmp/out
