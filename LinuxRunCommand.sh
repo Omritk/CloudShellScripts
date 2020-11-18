@@ -1,1 +1,2 @@
-sudo -- sh -c '$Command' > /tmp/out
+echo $Command > /tmp/command
+sudo bash /tmp/command
