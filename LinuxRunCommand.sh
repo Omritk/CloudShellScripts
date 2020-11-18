@@ -1,1 +1,1 @@
-sudo -- sh -c '$Command'
+sudo -- sh -c '$Command' > /tmp/out
