@@ -1,0 +1,8 @@
+- hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Install Yum Package {{ package_name }}
+      yum:
+        name: {{ package_name }}
+        state: latest
