@@ -2,7 +2,7 @@
   gather_facts: no
 
   tasks:
-    - name: Install Yum Package "{{ PACKAGE_NAME }}"
+    - name: Install Yum Package "{{P1}}"
       yum:
-        name: "{{ PACKAGE_NAME }}"
+        name: "{{P1}}"
         state: latest
