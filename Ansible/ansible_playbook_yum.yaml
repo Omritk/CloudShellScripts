@@ -6,3 +6,4 @@
       yum:
         name: "{{P1}}"
         state: latest
+      become: yes
