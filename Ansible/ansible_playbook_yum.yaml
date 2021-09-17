@@ -1,7 +1,4 @@
----
-defaults:
-  vars:
-    host_key_checking: false
+
 - hosts: all
   gather_facts: no
 
