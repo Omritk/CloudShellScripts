@@ -12,4 +12,4 @@ write-host "Param2:" + $param2
 if ($param2 -ne $null) {
   write-host "Param 2 Exists"
 }
-throw "error"
+
